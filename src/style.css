@@ -1,0 +1,54 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+th.titulo{
+  font-size: 50px;
+  font-weight: 500;
+  color: black;
+  background-color: #86cfee;
+}
+
+body{
+  background-image: linear-gradient(to right, #353c97, #33838d, #353c97)
+}
+
+table  {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    font-size: 30px;
+}
+
+th{
+ height: 40px; 
+}
+thead{
+    background-color: rgb(22, 100, 100);
+}
+
+thead {
+  border-bottom: 2px solid rgb(185, 71, 71);
+  text-align: center;
+  background-color: #353c97;
+  color: #fff;
+}
+
+tbody {
+  background-color: #86cfee;
+}
+
+td.Completado{
+  background-color: #3fcf22;
+}
+
+td.Pendiente{
+  background-color: rgb(209, 28, 28);
+}
